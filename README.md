@@ -4,4 +4,4 @@ Esse projeto foi desenvolvido com base numa API disponibilizada pela NASA, que f
 
 O próposito desse website é puramente de entretenimento e foi uma ideia legal que me veio na mente para praticar.
 
-Link do projeto hosteado na Glitch: https://astronomy-images.glitch.me/
+## Link do projeto hosteado na Glitch: https://astronomy-images.glitch.me/
