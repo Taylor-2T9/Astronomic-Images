@@ -26,7 +26,7 @@ const FormDate: NextPage<FormProps> = ({
         setDate(inputRef.current.value)
         api
           .get(`/apod?date=${date}&api_key=${process.env.REACT_APP_API_KEY}`)
-          .then((res) => {
+          .then(() => {
             if (!currentUrl.includes(date)) {
               document.getElementById('link').click()
             }

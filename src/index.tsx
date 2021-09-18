@@ -1,7 +1,6 @@
 import React from 'react'
 import ReactDOM from 'react-dom'
 import App from './components/App'
-import reportWebVitals from './reportWebVitals'
 import { BrowserRouter, Switch, Route } from 'react-router-dom'
 import CustomDate from './components/CustomDate'
 ReactDOM.render(
@@ -15,4 +14,3 @@ ReactDOM.render(
   </React.StrictMode>,
   document.getElementById('root')
 );
-reportWebVitals()

@@ -1,18 +1,34 @@
 import styled from "styled-components"
-
+import { FaUserAstronaut } from 'react-icons/fa'
 export const Footer = styled.footer`
-margin-top: -22px;
-background-color: #13383f;
-text-align: center;
-height: 53px;
+background-color: #17253c;
+display:flex;
+justify-content: space-around;
+align-items: center;
+height: 82px;
 `
 export const FooterTitle = styled.h3`
 color: whitesmoke;
-padding-top: 15px;
 `
-export const Form = styled.form`
-padding-left: 10px;
-`
-export const Input = styled.input`
+export const UserAstronaut = styled(FaUserAstronaut)`
+user-select: none;
+font-size: 43px;
+color: whitesmoke;
+background-color: #542282;
+border-radius: 50px;
+animation-name: example;
+animation-duration: 4.2s;
+@keyframes example {
+  0%   { background-color: #0ff522; color: whitesmoke; }
+  25%  { background-color: #14b0c4; color: #0d0d0d; }
+  50%  { background-color: #141dc4; color: whitesmoke; }
+  75%  { background-color: blueviolet; color: #0d0d0d; }
+  100% { background-color: #542282; color: whitesmoke; }
+}
+:hover{
 
+}
+`
+export const NasaLogo = styled.img`
+user-select: none;
 `

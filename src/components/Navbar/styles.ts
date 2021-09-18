@@ -1,12 +1,5 @@
 import styled from "styled-components";
 import { GiMoonOrbit } from 'react-icons/gi'
-/*
-.color1 {color: #000901;}
-.color2 {color: #13383f;}
-.color3 {color: #4d9b89;}
-.color4 {color: #b0d7b4;}
-.color5 {color: #d2d1ad;}
-*/
 export const Bar = styled.header`
     position: fixed;
     z-index: 2;
@@ -20,11 +13,13 @@ export const Bar = styled.header`
     box-shadow: 0 1px 0 #dadce0;
 `
 export const OptionDiv = styled.div`
+border-radius: 10%;
 height: 100%;
 width: 150px;
 display: flex;
 justify-content: center;
 cursor: pointer;
+transition: all ease 0.5s;
 &:hover {
         background-color: #b5b58a;
     }
@@ -51,7 +46,7 @@ export const Title = styled.h3`
     user-select: none;
     margin-left: 5px;
     margin-right: 10px;
-    margin-bottom: 25px;
+    margin-bottom: 5px;
     font-family: DejaVu Sans Mono, monospace;
     padding: 5px 5px;
 `

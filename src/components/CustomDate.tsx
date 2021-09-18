@@ -1,4 +1,3 @@
-
 import { useState } from "react"
 import Explorer, { CardProps } from "./Explorer"
 import Footer from "./Footer"

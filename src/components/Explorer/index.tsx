@@ -1,7 +1,7 @@
 import { NextPage } from "next"
 import { useEffect } from "react"
 import api from "../../service/api"
-import CurrentDayImage from "../CurrentImage"
+import CurrentDayImage from "./CurrentImage"
 import * as Styles from "./styles"
 import { useLocation } from 'react-router-dom'
 
