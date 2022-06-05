@@ -9,8 +9,8 @@ O próposito desse website é a prática, e ele surgiu de uma ideia legal que me
 # Como utilizar
 ### Clonando o projeto
 ```
-$ git clone https://github.com/barbosamaatheus/english-talking-api
-$ cd english-talking-api
+$ git clone https://github.com/Taylor-2T9/Astronomic-Images
+$ cd Astronomic-Images
 ```
 ### Iniciando o projeto
 ```
