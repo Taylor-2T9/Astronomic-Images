@@ -1,7 +1,21 @@
-# Imagens do Cosmos
-
+# Introdução
 Esse projeto foi desenvolvido com base numa API disponibilizada pela NASA, que foi de onde vieram os dados utilizados no site.
+O próposito desse website é a prática, e ele surgiu de uma ideia legal que me veio à mente. Cada data informada equivale a uma imagem relacionada à astronomia.
 
-O próposito desse website é puramente de entretenimento e foi uma ideia legal que me veio na mente para praticar.
+# No site
+- O site mostra a imagem referente à data atual.
+- Você pode escolher uma data específica e ver a imagem data e uma descrição sobre a imagem!
 
-## Link do projeto hosteado na Glitch: https://astronomy-images.glitch.me/
+# Como utilizar
+### Clonando o projeto
+```
+$ git clone https://github.com/barbosamaatheus/english-talking-api
+$ cd english-talking-api
+```
+### Iniciando o projeto
+```
+$ npm install
+$ npm start
+```
+
+# Link do projeto hosteado na Glitch: https://astronomy-images.glitch.me/
